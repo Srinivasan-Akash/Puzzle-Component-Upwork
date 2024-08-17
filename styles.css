@@ -1,0 +1,213 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1080px;
+  width: 100%;
+  margin: auto;
+}
+
+.mainImg {
+  width: 494px;
+  height: 399px;
+}
+
+#face-map {
+  width: 100%;
+  height: 399px;
+}
+
+.main-area {
+  width: 100%;
+  height: 399px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.page {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 399px;
+}
+
+.image-area {
+  position: relative;
+  /* margin-bottom: -1em; */
+  aspect-ratio: 494/399;
+}
+
+.face-area-img {
+  position: absolute;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.5s;
+  pointer-events: none;
+}
+
+.face-area-img.is-active {
+  opacity: 1 !important;
+}
+
+.area-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 34px;
+  min-height: 25em;
+}
+
+.area-title {
+  font-size: calc(20px * 1.5);
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.area-sub-title {
+  margin-bottom: 0.5em;
+  font-size: 1.5rem;
+}
+
+.area-details {
+  color: #000;
+  font-size: calc(15px * 1.25);
+  margin-bottom: 10px;
+  line-height: 1.5;
+  margin-left: 1em;
+}
+
+.area-data.is-active {
+  animation: fade 1s ease-in-out forwards;
+  align-items: flex-start;
+}
+
+.area1 {
+  position: absolute;
+  top: 0;
+  left: -4px;
+}
+
+.area2 {
+  position: absolute;
+  left: 87px;
+  top: 0px;
+}
+
+.area3 {
+  position: absolute;
+  left: -4px;
+  top: 75px;
+}
+
+.map area {
+  cursor: pointer;
+}
+
+.area4 {
+  position: absolute;
+  bottom: -8px;
+  left: -4px;
+}
+
+.area5 {
+  position: absolute;
+  top: 0px;
+  right: -4px;
+}
+
+.area6 {
+  position: absolute;
+  bottom: -8px;
+  left: 70px;
+}
+
+.area7 {
+  position: absolute;
+  top: 90px;
+  right: -4px;
+}
+
+.area8 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+.area9 {
+  position: absolute;
+  top: 175px;
+  left: 185px;
+}
+
+.area10 {
+  position: absolute;
+  top: 90px;
+  left: 85px;
+}
+
+.area11 {
+  position: absolute;
+  top: 90px;
+  left: 275px;
+}
+
+.area12 {
+  position: absolute;
+  top: 75px;
+  left: 185px;
+}
+
+.area13 {
+  position: absolute;
+  top: 190px;
+  left: 90px;
+}
+
+.area14 {
+  position: absolute;
+  top: 190px;
+  left: 275px;
+}
+
+@keyframes fade {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1075px) {
+  .page {
+    flex-direction: column-reverse !important;
+    margin-top: 30em;
+  }
+
+
+  .main-area {
+    height: 750px !important;
+  }
+
+  #face-map {
+    width: fit-content;
+  }
+
+  .image-area {
+    margin: auto;
+    scale: 0.9;
+  }
+
+  .container {
+    max-width: 500px;
+  }
+}
