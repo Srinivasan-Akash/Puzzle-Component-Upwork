@@ -171,14 +171,17 @@ jQuery(($) => {
 
         $(".instructions").hide();
         $(".area-data").removeClass("is-active");
-
-        $(".area-title").text(title);
-        $(".area-sub-title").text(subTitle);
-        $(".area-details").html(formatDescription(description));
+        $(".area-data").addClass("not-active");
 
         setTimeout(() => {
+            $(".area-title").text(title);
+            $(".area-sub-title").text(subTitle);
+            $(".area-details").html(formatDescription(description));
             $(".area-data").addClass("is-active");
-        }, 100);
+            $(".area-data").removeClass("not-active");
+        }, 200);
+   
+
     });
 
     $(document).ready(function () {
