@@ -151,21 +151,21 @@ jQuery(($) => {
     }
 
     // Hover handler for face map areas
-    $("#anti-aging map>area").hover(function () {
+    $("#puzzle_data map>area").hover(function () {
         const area_key = $(this).data("key");
-        $(`#anti-aging .${area_key}`).css({ "display": "block", "opacity": 1 });
+        $(`#puzzle_data .${area_key}`).css({ "display": "block", "opacity": 1 });
     }, function () {
         const area_key = $(this).data("key");
-        $(`#anti-aging .${area_key}`).css({ "opacity": 0 });
+        $(`#puzzle_data .${area_key}`).css({ "opacity": 0 });
     });
 
     // Click handler for face map areas
-    $("#anti-aging map>area").on("click", function (e) {
+    $("#puzzle_data map>area").on("click", function (e) {
         e.preventDefault();
         const area_key = $(this).data("key");
 
         $(".face-area-img").removeClass("is-active").css('opacity', 0);
-        $(`#anti-aging .${area_key}`).addClass("is-active").css('opacity', 1);
+        $(`#puzzle_data .${area_key}`).addClass("is-active").css('opacity', 1);
 
         const { title, "sub-title": subTitle, description } = dermal_data[area_key];
 
@@ -180,12 +180,10 @@ jQuery(($) => {
             $(".area-data").addClass("is-active");
             $(".area-data").removeClass("not-active");
         }, 200);
-   
-
     });
 
     $(document).ready(function () {
-        const firstArea = $("#anti-aging map>area").first(); // Select the first area
+        const firstArea = $("#puzzle_data map>area").first(); // Select the first area
         if (firstArea.length) {
             firstArea.trigger("click"); // Simulate a click on the first area
         }
