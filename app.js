@@ -164,7 +164,7 @@ jQuery(($) => {
         e.preventDefault();
         const area_key = $(this).data("key");
 
-        $(".face-area-img").removeClass("is-active").css('opacity', 0);
+        $(".puzzle-area-img").removeClass("is-active").css('opacity', 0);
         $(`#puzzle_data .${area_key}`).addClass("is-active").css('opacity', 1);
 
         const { title, "sub-title": subTitle, description } = dermal_data[area_key];

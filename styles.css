@@ -43,7 +43,7 @@ body {
   aspect-ratio: 494/399;
 }
 
-.face-area-img {
+.puzzle-area-img {
   position: absolute;
   z-index: 100;
   opacity: 0;
@@ -51,7 +51,7 @@ body {
   pointer-events: none;
 }
 
-.face-area-img.is-active {
+.puzzle-area-img.is-active {
   opacity: 1 !important;
 }
 
