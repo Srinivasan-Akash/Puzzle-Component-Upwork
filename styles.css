@@ -244,3 +244,20 @@ body {
     transform: translate(-15%, -20%);
   }
 }
+
+.text {
+  position: absolute;
+  color: #FFF;
+  z-index: 9000000000000000000;
+  font-size: .6em;
+}
+
+.area2-text {
+  left: 42.5%;
+  top: 10%;
+}
+
+.area1-text {
+  top: 10.5%;
+  left: 2%;
+}
