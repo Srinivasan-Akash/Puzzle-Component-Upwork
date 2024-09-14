@@ -1,143 +1,122 @@
-const dermal_data = {
+const puzzle_data = {
     "area1": {
-        "title": "What we start with ??",
+        "title": "Where we start ??",
         "sub-title": "Communication",
-        "description": `Life goals: business is one goal
-- Listening to each other
-- Purposeful conversation
-- Any business decision- ie business owner wages
-- Timely response to emails (2 days)
-- Notice of one-off events i.e Holidays, Capital Purchases, Loans`
+        "description": `- Clear communication is essential.
+- Define life goals, with business being one part of that.
+- Active listening on both sides.
+- Engage in purposeful conversations.
+- Discuss every business decision (e.g., business owner wages).
+- Respond to emails within two days.
+- Provide notice of significant events (e.g., holidays, capital purchases, loans).`
     },
     "area2": {
-        "title": "What we need from you ??",
+        "title": "Your Commitment ??",
         "sub-title": "Documentation",
-        "description": `- Supplier Invoices/Credits
-- Receipts
-- Supplier Statements
-- Loan Documents and Amortisation Schedules
-- Employee Contracts & Forms
-- Timesheets
-- Leave Applications`
+        "description": `- Provide supplier invoices and credits.
+- Submit receipts and supplier statements.
+- Share loan documents and amortization schedules.
+- Provide employee contracts, forms, timesheets, and leave applications.`
     },
     "area3": {
-        "title": "What we need from you ??",
+        "title": "Your Commitment ??",
         "sub-title": "Trust",
-        "description": `- PCL holistically
-- PCL interprets accounting language
-- Proactive not reactive i.e trusting I ask questions for a reason with your goals in mind
-- Up to date current information
-- Honesty about forth-coming actions`
+        "description": `- Trust us to view your business holistically.
+- We interpret the accounting language on your behalf.
+- Be proactive, not reactive. We ask questions to help achieve your goals.
+- Ensure information is current and up-to-date.
+- Be honest about upcoming actions and decisions.`
     },
     "area4": {
-        "title": "What we start with ??",
+        "title": "Where we start ??",
         "sub-title": "Transparency",
-        "description": `- Current Situation
-- The whole picture- i.e other entities
-- If you tell the accountant something, tell us also it is not necessary passed on
-- If you think you need to hide something, always discuss it with us
-- Onflow effect`
+        "description": `- Share your current situation with us.
+- Provide a complete picture (e.g., include details of other entities).
+- If you inform your accountant about something, let us know too—it may not be passed on.
+- Always feel comfortable discussing anything; if you’re unsure, it's better to talk it over.
+- Understand the onflow effect of your decisions.`
     },
     "area5": {
-        "title": "What we start with ??",
-        "sub-title": "Regular Contracts",
-        "description": `- Monthly Learning Sessions
-- Training and development
-- Do projections align with goals?`
+        "title": "Where we start ??",
+        "sub-title": "Regular Contact",
+        "description": `- Participate in monthly learning sessions.
+- Engage in ongoing training and development.
+- Ensure projections align with goals.`
     },
     "area6": {
-        "title": "What we need from you ??",
-        "sub-title": "Invest Own Time",
-        "description": `- Monthly Learning Sessions
-- Supply Documentation
-- Set up Authorities
-- Communicate regularly`
+        "title": "Your Commitment ??",
+        "sub-title": "Time Investment",
+        "description": `- Participate in monthly learning sessions.
+- Ensure timely submission of documents.
+- Set up required authorities.
+- Maintain regular communication.`
     },
     "area7": {
-        "title": "What we need from you ??",
+        "title": "Your Commitment ??",
         "sub-title": "Authorities",
-        "description": `- Bank Access - Read Only
-- ATO Portal
-- STP Annual Authority
-- STP Finalisation Authority
-- TPAR Annual Lodgement Authorities
-- BAS or IAS Authorities
-- Software Access - Accounting and related
-- Workcover Annual Authorities`
+        "description": `- Set up bank access (read-only).
+- Grant access to the ATO portal.
+- Provide STP annual authority and finalization.
+- Set up TPAR and BAS/IAS lodgement authorities.
+- Grant software access for accounting and related systems.
+- Provide Workcover annual authorities.`
     },
     "area8": {
-        "title": "What we start with ??",
-        "sub-title": "Identify Roles",
-        "description": `- Who does what
-- Consistency and commitment
-- Expectation of each other
-- Accountability
-- Ownership`
+        "title": "Where we start ??",
+        "sub-title": "Roles & Responsibilities",
+        "description": `- Clarify who does what.
+- Ensure consistency and commitment.
+- Define expectations and hold each other accountable.
+- Take ownership of tasks and outcomes.`
     },
     "area9": {
-        "title": "What we can do for you ??",
+        "title": "Our Commitment ??",
         "sub-title": "FYE Services",
-        "description": `- EOFY Workpaper Preparation
-- Balance Sheet Reconciliations
-- Loan Account Reconciliations
-- Accountant Journals`
+        "description": `- Prepare EOFY workpapers.
+- Reconcile balance sheets and loan accounts.
+- Process accountant journals.`
     },
     "area10": {
-        "title": "What we can do for you ??",
+        "title": "Our Commitment ??",
         "sub-title": "General Bookkeeping",
-        "description": `- Accounts Payable
-- Accounts Receivable
-- Bank Reconciliations
-- Fixed Assets
-- Records Management
-- Expense Management
-- Data Entry
-- Accounting file setups
-- Recovery Jobs`
+        "description": `- Manage accounts payable and receivable.
+- Reconcile bank statements.
+- Oversee fixed asset records and management.
+- Handle expense management and data entry.
+- Set up accounting files.
+- Conduct recovery jobs where needed.`
     },
     "area11": {
-        "title": "What we can do for you ??",
-        "sub-title": "Bag Agent Services",
-        "description": `- IAS Preparation & Lodgement
-- BAS Preparation & Lodgement
-- Superannuation Preparation & Lodgement
-- Superannuation Guarantee Charge Statements
-- STP Lodgements and Annual Finalisation
-- GST Registration
-- PAYGW Registration
-- Fuel Tax Credits
-- Liaison with ATO
-- TPAR`
+        "title": "Our Commitment ??",
+        "sub-title": "BAS Agent Services",
+        "description": `- Prepare and lodge IAS/BAS.
+- Handle superannuation preparation, lodgement, and guarantee charge statements.
+- Manage STP lodgements and annual finalization.
+- Assist with GST and PAYGW registration.
+- Prepare fuel tax credits and liaise with the ATO.
+- Manage TPAR lodgements.`
     },
     "area12": {
-        "title": "What we can do for you ??",
-        "sub-title": "training Services",
-        "description": `- Software Training
-- Bookkeeping Training
-- Payroll Training`
+        "title": "Our Commitment ??",
+        "sub-title": "Training Services",
+        "description": `- Offer software, bookkeeping, and payroll training.`
     },
     "area13": {
-        "title": "What we can do for you ??",
+        "title": "Our Commitment ??",
         "sub-title": "Payroll & HR",
-        "description": `- Employee Onboarding & Offboarding
-- Leave Requests
-- Policies and Procedures
-- Contractor Management
-- Labour Hire Registration and Reporting
-- Apprenticeship/Trainee Claims
-- Payroll Processing & Tax
-- Workers Compensation
-- Long Service Leave`
+        "description": `- Manage employee onboarding and offboarding.
+- Process leave requests.
+- Develop policies and procedures.
+- Handle contractor management and labour hire registration/reporting.
+- Oversee apprenticeship/trainee claims and payroll processing.
+- Manage workers' compensation and long service leave.`
     },
     "area14": {
-        "title": "What we can do for you ??",
+        "title": "Our Commitment ??",
         "sub-title": "Consulting Services",
-        "description": `- Cash Flow Management
-- Budgeting
-- Debtor Management
-- Other Advisory Services
-- Audit Preparation
-- Accounting File Audits`
+        "description": `- Assist with cash flow management and budgeting.
+- Oversee debtor management and provide other advisory services.
+- Prepare for audits and conduct accounting file audits.`
     }
 };
 
@@ -167,7 +146,7 @@ jQuery(($) => {
         $(".puzzle-area-img").removeClass("is-active").css('opacity', 0);
         $(`#puzzle_data .${area_key}`).addClass("is-active").css('opacity', 1);
 
-        const { title, "sub-title": subTitle, description } = dermal_data[area_key];
+        const { title, "sub-title": subTitle, description } = puzzle_data[area_key];
 
         $(".instructions").hide();
         $(".area-data").removeClass("is-active");

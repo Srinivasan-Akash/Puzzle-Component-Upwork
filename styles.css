@@ -265,72 +265,82 @@ body {
   pointer-events: none;
 }
 
+.text span {
+  background: #A7D044;
+  padding: .25em .8em;
+  border-radius: 100px;
+  pointer-events: none;
+}
+
 .area2-text {
-  left: 43%;
+  left: 42%;
   top: 11%;
 }
 
 .area1-text {
   top: 11%;
-  left: 2.5%;
+  left: 1%;
+  scale: .9;
 }
 
 .area5-text {
   top: 9.5%;
-  right: 5%;
+  right: 3%;
 }
 
 .area10-text {
   top: 34.5%;
-  left: 25.5%;
+  left: 24.5%;
+  scale: .9;
 }
 
 .area12-text {
   top: 34.5%;
-  left: 46.5%;
+  left: 45%;
 }
 
 .area11-text {
   top: 34.5%;
-  left: 64%;
+  left: 63%;
 }
 
 .area13-text {
   top: 60%;
-  left: 27.5%;
+  left: 26%;
 }
 
 .area14-text {
   top: 60%;
-  left: 65.5%;
+  left: 64.5%;
 }
 
 .area9-text {
   top: 60%;
-  left: 46.5%;
+  left: 45%;
 }
 
 .area8-text {
   top: 84.5%;
-  left: 87%;
+  left: 85%;
 }
 
 .area6-text {
   top: 86%;
-  left: 43%;
+  left: 42%;
 }
 
 .area4-text {
-  top: 86%;
-  left: 2%;
+  top: 86.5%;
+  left: 1%;
+  scale: .85;
 }
 
 .area3-text {
   top: 49%;
-  left: 8%;
+  left: 7%;
 }
 
 .area7-text {
-  right: 6%;
+  right: 4%;
   top: 49%;
 }
